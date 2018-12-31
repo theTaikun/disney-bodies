@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+  </head>
+  <body>
+    <nav>
+    </nav>
+    <div class=container>
+    <aside>
+	    {% include aside.md %}
+    </aside>
+    <main>
+    <h1>{{ page.title }}</h1>
+    <section class='characters'>
+	    <div class='characters__container'>
+		{% assign character-collection=site.characters|sort:'body' %}
+		{% for character in character-collection %}
+			<div class='characters__entry'>
+				<h2>{{character.name}}</h2>
+				<img class='characters__entry__image' src='assets/images/{{character.image}}' />
+				<p>Body Index: {{character.body}}</p>
+				<!-- {{character.content}} -->
+			</div>
+		{% endfor %}
+	    </div>
+    </section>
+    </main>
+    </div>
+    <footer>
+	    A <a href='https://www.glossyedge.com'>GlossyEDGE</a> partner.
+    </footer>
+  </body>
+</html>
