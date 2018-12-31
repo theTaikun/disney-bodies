@@ -22,8 +22,6 @@
 			<div class='characters__entry'>
 				<h2>{{character.name}}</h2>
 				<img class='characters__entry__image' src='assets/images/{{character.image}}' />
-				<p>Body Index: {{character.body}}</p>
-				<!-- {{character.content}} -->
 			</div>
 		{% endfor %}
 	    </div>
@@ -31,7 +29,7 @@
     </main>
     </div>
     <footer>
-	    A <a href='https://www.glossyedge.com'>GlossyEDGE</a> partner.
+	    {% include footer.md %}
     </footer>
   </body>
 </html>
