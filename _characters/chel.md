@@ -1,5 +1,6 @@
 ---
 name:	Chel
+shortname: chel
 body:	7
 hot:	10
 type:	curvy

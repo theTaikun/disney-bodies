@@ -1,5 +1,6 @@
 ---
 name:	Cruella deVille
+shortname: cruella
 body:	0
 hot:	0
 type:	anorexic
