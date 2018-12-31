@@ -1,6 +1,6 @@
 ---
 name:	Cinderella
-body:	2
+body:	3
 hot:	2
 type:	skinny
 image:	cinderella.jpg
