@@ -1,6 +1,6 @@
 # Disney Bodies
 
-Visualizing different female body types using various animated characters, not necissarily Disney.
+Visualizing different female body types using various animated characters, not necessarily Disney.
 
 There is some confusion about the terms used to describe different body types, and what is seen as conventionally attractive. This project aims to provide some much needed clarity using familiar characters.
 
