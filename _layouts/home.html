@@ -22,10 +22,10 @@
 		{% assign shortname = character.path | split:"/"|last|split:"."| first %}
 		<div class='character character--{{shortname}}'>
 			<h2 class='character__name character--{{shortname}}__name'>{{character.name}}</h2>
-				<img class='character__image character--{{shortname}}__image' src='assets/images/{{character.image}}' />
-				<p>Body Index: {{character.body}}</p>
-				<!-- {{character.content}} -->
-			</div>
+			<img class='character__image character--{{shortname}}__image' src='assets/images/{{character.image}}' />
+			<p>Body Index: {{character.body}}</p>
+			<!-- {{character.content}} -->
+		</div>
 		{% endfor %}
 	    </div>
     </section>
