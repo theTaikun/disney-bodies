@@ -19,9 +19,10 @@
 	    <div class='characters__container'>
 		{% assign character-collection=site.characters|sort:'body' %}
 		{% for character in character-collection %}
-		<div class='character character--{{character.shortname}}'>
-			<h2 class='character__name character--{{character.shortname}}__name'>{{character.name}}</h2>
-				<img class='character__image character--{{character.shortname}}__image' src='assets/images/{{character.image}}' />
+		{% assign shortname = character.path | split:"/"|last|split:"."| first %}
+		<div class='character character--{{shortname}}'>
+			<h2 class='character__name character--{{shortname}}__name'>{{character.name}}</h2>
+				<img class='character__image character--{{shortname}}__image' src='assets/images/{{character.image}}' />
 				<p>Body Index: {{character.body}}</p>
 				<!-- {{character.content}} -->
 			</div>

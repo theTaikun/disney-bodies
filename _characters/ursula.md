@@ -1,6 +1,5 @@
 ---
 name:		Ursula
-shortname: ursula
 body:		10
 hot:		0
 type:		fat

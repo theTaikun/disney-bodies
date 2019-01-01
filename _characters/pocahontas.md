@@ -1,6 +1,5 @@
 ---
 name:	Pocahontas
-shortname: pocahontas
 body:	5
 hot:	8
 type:	athletic

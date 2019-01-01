@@ -1,6 +1,5 @@
 ---
 name:	Cinderella
-shortname: cinderella
 body:	2
 hot:	2
 type:	skinny
